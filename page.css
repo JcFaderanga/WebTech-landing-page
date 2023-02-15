@@ -21,7 +21,7 @@ nav{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 100px;
+	padding: 0 50px;
 	color: white;
 	position: fixed;
 	top: 0;
@@ -91,7 +91,7 @@ nav ul a:hover{
 }
 .container{
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1000px;
 	height: 100vh;
 	margin: 0 auto;
     display: flex;
@@ -99,10 +99,10 @@ nav ul a:hover{
 	background: rgb(18,18,18, .8);
 }
 .title{
-	width: 600px;
+	width: 500px;
 	height: 500px;
     margin-top: 200px;
-    padding-left: 20px;
+    padding-left: 40px;
     padding-top: 50px;
 }
 .search-bar{
@@ -132,7 +132,7 @@ input[type=search]{
 
 }
 .image{
-	width:600px;
+	width:500px;
 	height: 510px;
 	display: flex;
 	align-items: center;
@@ -203,7 +203,7 @@ border-radius: 3px;
 }
 .about-us{
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1000px;
 	height: calc(100vh - 200px);
 	margin: 0 auto;
     display: flex;
@@ -212,7 +212,7 @@ border-radius: 3px;
 
 }
 .image-about {
-	width: 600px;
+	width: 500px;
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -220,7 +220,7 @@ border-radius: 3px;
 }
 .image-about img{
 	height: 500px;
-	margin-left: -100px;
+	margin-left: -150px;
 
 }
 .about-logo{
@@ -237,7 +237,7 @@ border-radius: 3px;
 
 }
 .paragraph-about{
-	width: 600px;
+	width: 500px;
 	height: 100%;
 	display: flex;
 	align-items: center;
