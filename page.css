@@ -1,0 +1,254 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+	color: white;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background: #121212;
+	
+
+}
+nav{
+	width: 100%;
+	height: 80px;	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 100px;
+	color: white;
+	position: fixed;
+	top: 0;
+	background-color: #121212;
+
+}
+nav label i{
+	font-weight: 600;
+	font-size: 55px;
+	color: yellow;
+}
+nav label{
+    display: flex;
+    align-items: center;
+}
+nav span{
+
+	font-weight: 200;
+    font-size: 27px;
+    margin-top: 13px;
+}
+nav ul{
+	width: auto;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+nav ul li{
+	margin:0 10px;
+
+}
+nav ul li a{
+	padding: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+	font-size: 17px;
+}
+nav ul a:hover{
+	color: yellow;
+	transform: scale(1.1);
+}
+.sign-up{
+	display: flex;
+	align-items: center;
+	height: 80px;
+}
+.sign-up li{
+	margin: 0 8px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+.sign-up a:first-child{
+	background-color: yellow;
+	padding: 7px 10px;
+	color: black;
+	border-radius: 3px;
+
+
+}
+.background-container{
+	width: 100%;
+	background-image: url(image/beans.png);
+	background-size: cover;	
+	height: 100vh;
+}
+.container{
+	width: 100%;
+	max-width: 1200px;
+	height: 100vh;
+	margin: 0 auto;
+    display: flex;
+	flex-wrap: wrap;
+	background: rgb(18,18,18, .8);
+}
+.title{
+	width: 600px;
+	height: 500px;
+    margin-top: 200px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.search-bar{
+	width: 100%;
+	height: 80px;
+}
+.search{
+	width: 300px;
+	border-radius: 20px;
+	height: 40px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+.search i{
+	color: black;
+	font-size: 30px;
+
+}
+input[type=search]{
+	border: none;
+	border-radius: 20px;
+	height: 35px;
+	width: 260px;
+	color: black;
+	padding-left: 15px;
+
+}
+.image{
+	width:600px;
+	height: 510px;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+	margin-top: 100px;
+	overflow: hidden;
+}
+.social-media{
+	display: flex;
+	height: 200px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.social-media li{
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	margin:15px;
+	background-color: #1c1c1c;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.social-media li a i{
+	font-size: 23px;
+	line-height: 50px;
+}
+#coffee{
+	width: 700px;
+	height: 700px;
+	
+}
+@media only screen and (max-width: 800px){
+	.image{
+		display: none;
+	}
+
+}
+.title > label{
+	font-size: 40px;
+	font-weight: 200;
+	line-height: 50px;
+}
+.title label > span{
+	font-size: 45px;
+	font-weight: 400;
+	color: yellow;
+
+}
+.order-buttons{
+	margin: 50px 0;
+	width: 100%;
+	margin-left: 10px;
+	height: auto;
+}
+.order-buttons #order, #about{
+margin: 10px;
+padding: 14px 25px;
+border: 1px solid yellow;
+border-radius: 3px;
+}
+#order{
+	background-color: yellow;
+	color: black;
+
+}
+.about-us{
+	width: 100%;
+	max-width: 1200px;
+	height: calc(100vh - 200px);
+	margin: 0 auto;
+    display: flex;
+	flex-wrap: wrap;
+	background: rgb(18,18,18, .8);
+
+}
+.image-about {
+	width: 600px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+.image-about img{
+	height: 500px;
+	margin-left: -100px;
+
+}
+.about-logo{
+	height: 200px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.about-logo label{
+	font-size: 40px;
+	font-weight: 500;
+	color: yellow;
+
+}
+.paragraph-about{
+	width: 600px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	float: right;
+
+}
+.paragraph-about p{
+width: 100%;
+
+
+
+}
