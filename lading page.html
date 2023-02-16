@@ -13,17 +13,24 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="page.css">
+    <link rel="stylesheet" type="text/css" href="responsivness.css">
+    
 </head>
 <body>
 	<!-- nav bar -->
 	<section>
 		<nav>
 			<label><img src="image/coffee-logo.png" style=" width:80px"><span style="font-weight: 400">JAVA <span style="font-weight: 200">hub</span></span></label>
-			<ul>
+			<div class="menu"><i id="id-menu" class='bx bx-menu-alt-right'></i></div>
+			<ul id="nav-holder">
 				<li><a href="#">Home</a></li>
 				<li><a href="#2nd">Menu</a></li>
 				<li><a href="#">What's new</a></li>
 				<li><a href="#">Contact</a></li>
+				<li id="responsivness-signup">
+					<a href="#"style="background-color: transparent; color: white">Sign in</a>
+					<a href="#" style="color: yellow">Sign up</a>
+				</li>
 			</ul>
 			<div class="sign-up">
 				<li><a href="" style="background-color: transparent; color: white">Sign in</a></li>
@@ -35,7 +42,8 @@
 	</section>
 	<!-- container -->
 	<div class="background-container">
-		<section class="container">
+		<div class="overlay">
+			<section class="container">
 		<div class="title">
 			<label>Make you day <span> FUN </span><br>with a menu on <span>JAVA HUB</span></label>
 			<div class="search-bar">
@@ -44,7 +52,7 @@
 					<input type="search" name="search" placeholder="Search your coffee here">
 					<i class='bx bx-search'></i>
 				</div>
-				<i class='bx bxs-shopping-bag' style="font-size: 27px; margin-left: 20px"></i>
+				<i id="shop-bag"class='bx bxs-shopping-bag' style="font-size: 27px; margin-left: 20px"></i>
 			  </div>	
 				<div class="order-buttons">
 					<a id="order" href="">Order now</a>
@@ -67,6 +75,8 @@
 				<li><a href=""><i class='bx bxl-tiktok' ></i></a></li>
 			</div>
 	</section>
+		</div>
+		
 	</div>
 
 	<section id="about-us"class="about-us">
@@ -80,7 +90,8 @@
 		</div>
 	</section>
 	
-	
+	<!-- JavaScript -->
+    <script src="page.js"></script>
 	
 </body>
 </html>
