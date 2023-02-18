@@ -1,76 +1,16 @@
+/********************/
+    /* NAV BAR */
+/********************/
 @media only screen and (max-width: 800px){
-	nav{
-	padding: 0 10px;
-	background-color: rgb(18,18,18);
+	.container{
+		max-height: none;
+}
 
 }
-	nav ul li{
-	margin:0 0;
-	height: 60px;
-	background-color: #121212;
-    }
-    nav ul li a{
-	padding:20px 70px 20px 20px;
-	margin-top: 0;
-	font-size: 20px;
+/********************/
+    /* ABOUT US */
+/********************/
+@media only screen and (max-width: 800px){
 
-    }
-
-	nav ul{
-	width: auto;
-	display: none;
-	align-items: center;
-	flex-wrap: wrap;
-	position: absolute;
-	width: 100%;
-	margin-left: -10px;
-	margin-top: 120px;
-    }
-    #responsivness-signup{
-	display: flex;
-	justify-content: center;
-	border: 1px solid yellow;
-    border-left: none;
-    border-right: none;
-    }
-    #responsivness-signup a{
-    	padding: 0;
-    	align-self: center;
-    	margin: 10px;
-    }
-    .menu{
-    	display: block;
-    	font-size: 40px;
-    }
-    .sign-up{
-    	display: none;
-    }
-
-	.image{
-		display: none;
-	}
-    .title{
-    width:100%;
-    height: 400px;
-    padding-left: 25px;
-    padding-top: 50px;
-    margin-top: 100px;
-   }
-   .social-media{
-	display: flex;
-	height: 100px;
-	width: 100%;
-
-}
-.order-buttons{
-	margin-left: 0;
-}
-#shop-bag{
-	display: none;
-
-}
-.social-media li{
-	margin:5px;
-}
 
 }
