@@ -17,81 +17,211 @@
     
 </head>
 <body>
-	<!-- nav bar -->
-	<section>
-		<nav>
-			<label><img src="image/coffee-logo.png" style=" width:80px"><span style="font-weight: 400">JAVA <span style="font-weight: 200">hub</span></span></label>
-			<div class="menu"><i id="id-menu" class='bx bx-menu-alt-right'></i></div>
-			<ul id="nav-holder">
-				<li><a href="#">Home</a></li>
-				<li><a href="#2nd">Menu</a></li>
-				<li><a href="#">What's new</a></li>
-				<li><a href="#">Contact</a></li>
-				<li id="responsivness-signup">
-					<a href="#"style="background-color: transparent; color: white">Sign in</a>
-					<a href="#" style="color: yellow">Sign up</a>
-				</li>
-			</ul>
-			<div class="sign-up">
-				<li><a href="" style="background-color: transparent; color: white">Sign in</a></li>
-				<li><a href="">Sign up</a></li>
-			</div>
+<!--=== Log in form ===-->
+<!--=== Navigation Bar ===-->
+      <nav>
+      	<div class="container-nav">
+		   <ul>
+		   	  <li><img src="image/coffee-logo.png"></li>
+		   	  <li><a href="#home">Home</a></li>
+		 	  <li><a href="#">Menu</a></li>
+		 	  <li><a href="#aboutus">About us</a></li>
+		 	  <li><a href="#">Contact</a></li>
+		 	  <li><a href="#">
+		 	  	<i class='bx bxs-map' 
+		 	  	 style="font-size: 23px; 
+		 	  	        color: yellow">
+		 	  	 </i>Store</a>
+		 	  </li>
+		   </ul>
+		   <div class="sign-up">
+			  <li><span id="nav-signin">Sign in</span></li>
+			   <li><span id="nav-signup" >Sign up</span></li>
+		   </div>
+      	</div>
+      	 
+      </nav>
+<!--=== Container ===-->
+    <div class="background-image">
+       <div class="overlay">
+	  	 <section id="home" class="container">
+		       <div class="left-side">
+		       	  <div class="main-title">
+		       	  	 <label>
+			           Make you day <span> FUN </span><br>with a menu on <span>JAVA HUB</span>
+			         </label>
+		       	  </div>
+		       	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit.</p>
+		       	  <div class="left-side-buttons">
+		       	  	<span id="learn-more">Learn more</span>
+		       	  	<span id="whats-new">What's new</span>
+		       	  </div>
+		       </div>
+		       <div class="right-side">
+	         	    <div class="image">
+			            <img id="coffee" src="image/coffee.png">
+		            </div>
+	           </div>
+	     <!--=== Gallery ===-->
+	          <div class="gallery">
+	           	  <div class="grid">
+	           	  	<div class="item-hover cards1">
+	           	  		<img src="image/card1.jpg">
+	           	  		<div class=" card1-description">
+	           	  			<h1>Discover the flavor</h1>
+	           	  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore sed do eiusmod.</p>
+	           	  		</div>
+	           	  	</div>
+	           	  	<div class="item-hover cards2">
+	           	  		<img src="image/card2.jpg">
+	           	  	</div>
+	           	  	<div class="item-hover cards3">
+	           	  		<img src="image/card3.jpg">
+	           	  	</div>
+	           	  	<div class="item-hover cards4">
+	           	  		<img src="image/nathan-dumlao-c2Y16tC3yO8-unsplash (1).jpg">
+	           	  	</div>
+	           	  	<div class="item-hover cards5">
+	           	  		<img src="image/card4.jpg">
+	           	  	</div>
+	           	  </div>
+	          </div>
+	   <!--=== About us ===-->
+	          <div class="about-us">
+	          	<div class="about-left-side">
+	          	  <img src="image/coffee sign.png">
+	          	</div>
+	          	<div id="aboutus" class="about-right-side">
+	          		<span>ABOUT US</span><br>
+	          		<label>what we do?</label>
+	          		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	          	</div>
+	          </div>
+	     <!--=== Menu  ===-->
+	          <div class="menu">
+	          	<div class="menu-title">
+	          		<span>Discover The Flavor</span>
+	          		<label>Find the perfect cup for the perfect beverage</label>
+
+	          	</div>
+	          	<div class="best-seller">
+	          		<div class="best-item">
+	          			<div class="item">
+	          				<img src="image/jason-wong-kSlL887znkE-unsplash.jpg">
+	          			</div> 
+	          			<div class="item-description">
+	          					<span>
+	          						<label>REVELATION</label>
+	          					</span>
+	          					<span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></span>
+	          					<span>
+	          						Rate:
+	          						<i class='bx bxs-star'></i>
+	          						<i class='bx bxs-star'></i>
+	          						<i class='bx bxs-star'></i>
+	          						<i class='bx bxs-star'></i>
+	          					</span>
+	          				</div>
+	          				<div class="best-items-buttons">
+	          					<span>Quick order</span>
+	          					<span>Lear more</span>
+	          			    </div>
+	          	    </div>
+	          	    <div class="best-item">
+	          			<div class="item">
+	          				<img src="image/card3.jpg">
+	          			</div>
+	          			<div class="item-description">
+	          					<span>
+	          						<label>REVELATION</label>
+	          					</span>
+	          					<span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></span>
+	          					<span>
+	          						Rate:
+	          						<i class='bx bxs-star'></i>
+	          						<i class='bx bxs-star'></i>
+	          						<i class='bx bxs-star'></i>
+	          						<i class='bx bxs-star'></i>
+	          					</span>
+	          				</div>
+	          				<div class="best-items-buttons">
+	          					<span>Quick order</span>
+	          					<span>Lear more</span>
+	          			    </div>
+	          	    </div>
+	          	    <div class="best-item">
+	          			<div class="item">
+	          				<img src="image/snapbythree-my-g6e641CiHFQ-unsplash.jpg">
+	          				<div class="item-description">
+	          					<span>
+	          						<label>REVELATION</label>
+	          					</span>
+	          					<span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></span>
+	          					<span>
+	          						Rate:
+	          						<i class='bx bxs-star'></i>
+	          						<i class='bx bxs-star'></i>
+	          						<i class='bx bxs-star'></i>
+	          						<i class='bx bxs-star'></i>
+	          					</span>
+	          				</div>
+	          				<div class="best-items-buttons">
+	          					<span>Quick order</span>
+	          					<span>Lear more</span>
+	          			    </div>
+	          			</div> 
+	          	    </div>
+	          	</div>
+	         </div>
+	        <div class="footer">
+	        	<div class="about-us-footer">
+	        		<ul>
+	        			<li>About Us</li>
+	        			<li><a href="">Our Company</a></li>
+	        			<li><a href="">Our Coffee</a></li>
+	        			<li><a href="">Stories and news</a></li>
+	        			<li><a href="">Archives</a></li>
+	        			<li><a href="">Investors</a></li>
+	        		</ul>
+	        	</div>
+	        	<div class="careers">
+	        		<ul>
+	        			<li>Careers</li>
+	        			<li><a href="">Culter and Values</a></li>
+	        			<li><a href="">Equity</a></li>
+	        			<li><a href="">International Careers</a></li>
+	        			<li><a href="">Philippine career</a></li>
+	        		</ul>
+	        	</div>
+	        	<div class="business">
+	        		<ul>
+	        			<li>For Business Partners</li>
+	        			<li><a href="">Support Center</a></li>
+	        			<li><a href="">Suppliers</a></li>
+	        			<li><a href="">Corporate Sales</a></li>
+	        			<li><a href="">Office and Foodser</a></li>
+	        		</ul>
+	        	</div>
+	        	<div class="order-pickup">
+	        		<ul>
+	        			<li>Order and Pickup</li>
+	        			<li><a href="">Order on the App</a></li>
+	        			<li><a href="">Order in the Web</a></li>
+	        			<li><a href="">Delivery</a></li>
+	        			<li><a href="">Order and pickup</a></li>
+	        			<li><a href="">Find Us</a></li>
+	        		</ul>
+	        	</div>
+	        </div>
+
+	      </section>       
+	   </div>      	  
+    </div>
+	 
 
 
-		</nav>
-	</section>
-	<!-- container -->
-	<div class="background-container">
-		<div class="overlay">
-			<section class="container">
-		<div class="title">
-			<label>Make you day <span> FUN </span><br>with a menu on <span>JAVA HUB</span></label>
-			<div class="search-bar">
-			  <div class="order&search" style="display: flex; align-items: center;margin:25px 0;">
-			  	<div class="search">
-					<input type="search" name="search" placeholder="Search your coffee here">
-					<i class='bx bx-search'></i>
-				</div>
-				<i id="shop-bag"class='bx bxs-shopping-bag' style="font-size: 27px; margin-left: 20px"></i>
-			  </div>	
-				<div class="order-buttons">
-					<a id="order" href="">Order now</a>
-					<a id="about" href="#about-us">About Us</a>
-				</div>
-			</div>
-
-		</div>
-	  <div class="righ-side">
-	  	<div class="image">
-			<img id="coffee" src="image/coffee.png">
-		</div>
-		
-	  </div>
-		<div class="social-media">
-				<li><a href=""><i class='bx bxl-facebook'></i></a></li>
-				<li><a href=""><i class='bx bxl-twitter'></i></a></li>
-				<li><a href=""><i class='bx bxl-gmail' ></i></a></li>
-				<li><a href=""><i class='bx bxl-instagram' ></i></a></li>
-				<li><a href=""><i class='bx bxl-tiktok' ></i></a></li>
-			</div>
-	</section>
-		</div>
-		
-	</div>
-
-	<section id="about-us"class="about-us">
-		<div class="about-logo"><label>ABOUT US</label>
-		</div>
-		<div class="image-about">
-			<img src="image/coffee sign.png">
-		</div>
-		<div class="paragraph-about">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-		</div>
-	</section>
-	
 	<!-- JavaScript -->
     <script src="page.js"></script>
-	
-</body>
+
+  
 </html>
